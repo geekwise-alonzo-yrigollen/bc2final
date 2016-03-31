@@ -1,244 +1,87 @@
-html,body{
-    margin:3px;
-    height:100%;
-    width:100%;
-    background-color:goldenrod;
+<!DOCTYPE html>
+<html>
+   
+    <head>
     
-}
-
-header{
-    margin:none;
-    display:inline-block; 
-    width:100%;
-    height:15rem;
-    padding:1rem;
-    background-color:gray;
+    <title> Alonzo Yrigollen  | BC2 Final </title>
     
-}
-
-header:hover{
-    background-color:black;
-    transition: background 2s;
-}
-
-#logo1{
+    <meta charset='utf-8'>
     
-    width:calc(100%/3);
-    float:left;
-    text-align: center;
-    background-color:firebrick;
-    border:solid;
-    border-color:lightgray;
-    border-radius:40rem 7rem 20rem 9rem;
-}
+    <meta content="text/html/">
+    
+    <meta name='viewport' content="width=device-width, initial scale=1">
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+   </head>
+    
+<body>
+    
+    <header>        
+       
+        <span id="logo1">
+        
+        <img src='http://i.imgur.com/Y7zOLuz.jpg' width="250px" height="255px">
+         
+        </span>
+        
+        <span><h1>AAY Production Ready</h1></span>
+        
+        <span id="logo2">
+       
+            <img src='http://i.imgur.com/PQPPnmh.png' width="250px" height="255px"> 
+       
+        </span>
+        
+    </header>
+    
+        <nav>
+       
+          <ul>
+           
+            <li><a href="index.html" target="_blank">Home</a></li>
+            
+            
+            <li><a href="about.html" target="_blank">About Us</a></li>
+           
+            <li><a href="sponsor.html" target="_blank">Sponsors</a></li>
+            
+          </ul>
+          
+        </nav>   
+    
+    <main>
+           
+            <span  id="image1">
+                     <img src="#" target="_blank"/>
+            </span>
+            <span>
+                 <img id="image2" src="#"/>
+            </span>
+            
+            <p>
+    <section id="paragraph_bottom">
+      <p>Bitwise Industries along side Geekwise are creating future leaders with the development of a master skill. By and through the live involvement of training fundementals, exposing the opportunity that will transform the valley without boundries. This master skill will open up doorways beyond that of a traditional education aligning those who choose technology the opportunity to program their future of success.</p> <p>It is drinking water from a fire hydrant; so fear not, and get wet!</p>
+     
+      </section>
 
-#logo1:hover{
-    background-color:white;
-    border-color:red;
-    transition: background 2s;
-}
-#logo1 img{
-    border-radius:50%;
-}
+    </main>
 
-span > h1{
-    margin:75px 0px 0px 0px;
-    color:white;
-    width:calc(95.5%/3);
-    height:30px;
-    padding-top:10px;
-    float:left;
-    border-radius: 19px;
-    text-align: center;
-    background-color:navy;
-    border:solid;
-    border-color:lightgray;
-} 
-span > h1:hover{
-    color:red;
-    background-color:black;
-    border-color:black;
-    transition: background 1s;
+
+    <footer>
+        
+        <span id="fbook"><a href="https://www.facebook.com" target="_blank"><img src="http://i.imgur.com/h46rcvC.png"/></a></span>
+        <a href="index.html"><span class="button">Click Here</span></a>
+          <p><br>
+        <br>&copy; 2016 Geekwise Alonzo Yrigollen
+        </p>
+        
+            
+    </footer>
+    
+    </body>
+    
+</html>
+
       
-}
 
-#logo2{
-    
-    width:calc(100%/3);
-    float:right;
-    text-align:center;
-    background-color:firebrick;
-    border:solid;
-    border-color:lightgray;
-    border-radius:7rem 40rem 9rem 20rem;
-}
-
-#logo2:hover{
-    background-color:white;
-    border-color:red;
-    transition: background 2s;
-
-}
-#logo2 img{
-    border-radius:50%;
-}
-
-/*HEADER ENDS HERE*/
-
-nav{
-    
-    margin:0 auto;
-    display:inline-block;
-    background-color:lightgray;
-    width:100%;
-    height: 64px;
-    border-radius: 9px;
-    
-}
-nav > ul{
-    width:0 auto;
-    padding:4px;
-    text-align: center;
-    transition:background 3s;
-    
-}
-nav:hover{
-    background-color:bisque;
-}
-
-
-
-nav > ul > li{
-    
-    margin:0 auto;
-    background-color:firebrick;
-    padding:5px;
-    display:inline-block;
-    border-radius:4pc;
-}
-ul:hover{
-    color:black;
-    background-color:navy;
-}
-
-li > a{
-    padding:inherit;
-    color:white;
-    text-decoration: none;
-    
-}
-
-li > a:hover{
-    text-decoration: underline;
-    color:navy;
-}
-
-
-
-
-main{
-
-    margin:none;
-    display:inline-block; 
-    width:100%;
-    height:80%;
-    padding:1rem;
-    background-color:blue;
-}
-p{
-    width:0 auto;
-    display:inline;
-    color:white;
-    font-size:1.5em
-}
-
-
-#image1{
-    
-    height:;
-    background-color:navy;
-    display:inline-block;
-    width:calc(100%/2);
-    float:left;
-    text-align:center;
-}
-#image2{
-    
-    height:388px;
-    display:inline-block;
-    width:calc(100%/2);
-    float:left;
-}
-
-main > section > p{
-    
-    display:block;
-    color:black;
-    overflow: hidden;
-    margin:10px;
-    padding:10px;
-    width: 100%;
-    height: 20%;
-    background-color:white;
-    
-}
-    
-footer > span > a{
-    margin:30px 0px 0px 0px;
-    display:inline-block;
-    
-    
-}
-
-
-.button{
-    color:blue;
-    margin-bottom:9px;
-    padding:15px;
-    background-color:aquamarine;
-    border-radius:15px;
-  
-    
-}
-a{
-    text-decoration: none;
-}
-
-.button:hover{
-    color:white;
-    background-color:blue;
-    transition: background 1.5s;
-    text-decoration: underline;
-    
-    
-}
-#paragraph_bottom{
-    display:block;
-    margin:0 auto;
-    text-align:center;
-}
-
-footer{
-    margin:0 auto;
-    width:100%;
-    height:30%;
-    text-align:center;
-    background-color:gray;
-    border:solid 4px;
-    border-color:lightblue
-
-}
-#fbook{
-   display:block;
-   margin:0 auto;
-   width:5%;
-    transform:translateY(-1.3em);
-
- }
-footer > p{
-    width:0 auto;
-    height:auto;
-    display:inline;
-    
-    
-}
