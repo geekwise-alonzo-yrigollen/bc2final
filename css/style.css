@@ -164,10 +164,11 @@ p{
 }
     
 
-#mar p{
+.stem{
     
     color:#fff;
     font-size:1.8em;
+    padding:0px 130px;
     font-weight:800;
     text-transform:uppercase;
     text-align:center;
