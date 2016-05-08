@@ -134,7 +134,7 @@ li > a:hover{
 }
 
 
-
+/*COMMENCE MAIN HERE*/
 
 main{
 
@@ -227,9 +227,12 @@ a{
 }
 
 #copy{
-    color:blue;
+    color:#fff;
+    font-weight:700;
+    box-shadow:1px 1px 1px 1px #fff;
     display:block;
-    font-family:cursive;
+    font-family:sans-serif;
+    font-size:13px;
 
     
 }
